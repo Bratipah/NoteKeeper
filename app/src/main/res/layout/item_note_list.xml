@@ -23,7 +23,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="10sp"
-                android:text="TextView"
+                android:text="@string/textview"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toTopOf="@+id/text_title"
