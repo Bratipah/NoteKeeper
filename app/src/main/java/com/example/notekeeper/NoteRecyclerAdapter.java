@@ -38,10 +38,13 @@ public class NoteRecyclerAdapter extends  RecyclerView.Adapter <NoteRecyclerAdap
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
+        public final TextView mTextCourse;
+        public final TextView mTextTitle;
+
         public ViewHolder(View itemView) {
             super(itemView);
-            TextView textCourse = (TextView) itemView.findViewById(R.id.text_course);
-            TextView textTitle = (TextView) itemView.findViewById(R.id.text_title);
+            mTextCourse = (TextView) itemView.findViewById(R.id.text_course);
+            mTextTitle = (TextView) itemView.findViewById(R.id.text_title);
         }
     }
 }
