@@ -1,6 +1,7 @@
 package com.example.notekeeper;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -13,6 +14,7 @@ public class NoteRecyclerAdapter extends  RecyclerView.Adapter <NoteRecyclerAdap
 
     public NoteRecyclerAdapter(Context context) {
         mContext = context;
+        LayoutInflater layoutInflater = LayoutInflater.from(mContext);
     }
 
     @NonNull
