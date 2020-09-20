@@ -35,6 +35,7 @@ public class NoteRecyclerAdapter extends  RecyclerView.Adapter <NoteRecyclerAdap
         NoteInfo note = mNotes.get(position);
         holder.mTextCourse.setText(note.getCourse().getTitle());
         holder.mTextTitle.setText(note.getTitle());
+        holder.mCurrentPosition = position;
     }
 
     @Override
