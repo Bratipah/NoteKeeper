@@ -184,6 +184,7 @@ public class NoteActivity extends AppCompatActivity {
 
         saveOriginalNoteValues();
         displayNote(mSpinnerCourses,mTextNoteTitle,mTextNoteText);
+        invalidateOptionsMenu();
     }
 
     private void saveNote() {
