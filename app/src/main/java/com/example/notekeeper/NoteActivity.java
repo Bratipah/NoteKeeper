@@ -168,6 +168,12 @@ public class NoteActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem item = menu.findItem(R.id.action_next);
+        return super.onPrepareOptionsMenu(menu);
+    }
+
     private void moveNext() {
         saveNote();
         ++mNotePosition;
