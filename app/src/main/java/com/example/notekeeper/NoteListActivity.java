@@ -40,6 +40,14 @@ public class NoteListActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 //        mAdapterNotes.notifyDataSetChanged();
+        mNoteRecyclerAdapter.notifyDataSetChanged();
+
+
+
+
+
+
+
     }
 
     private void initializeDisplayContent() {
