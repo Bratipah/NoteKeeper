@@ -43,11 +43,6 @@ public class NoteListActivity extends AppCompatActivity {
         mNoteRecyclerAdapter.notifyDataSetChanged();
 
 
-
-
-
-
-
     }
 
     private void initializeDisplayContent() {
